@@ -45,12 +45,3 @@ Certifique-se de que o arquivo `produtos.csv` esteja na mesma pasta do script.
 | Mousepad | 25.00 | 50 |
 
 Registros com preço negativo, vazio ou não numérico são descartados automaticamente pela função `validar_produto`.
-
-## Próximos passos
-
-Este é o primeiro de uma série de projetos de ETL. Os próximos vão evoluir para:
-- Carregar os dados validados em um banco SQLite
-- Consolidar múltiplas fontes de dados
-- Adicionar logging e tratamento de erros mais robusto
-- Subir os dados para AWS S3
-- Orquestrar o pipeline com Airflow
